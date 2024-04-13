@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Web App</title>
+<style>
+    /* Basic styling */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #232f3e;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    nav {
+        background-color: #f0f2f5;
+        padding: 10px;
+    }
+    section {
+        padding: 20px;
+    }
+    .product {
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Amazon Web App</h1>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <input type="text" placeholder="Search...">
+    <button>Search</button>
+    <a href="#">Cart (0)</a>
+</nav>
+<section>
+    <h2>Filters</h2>
+    <label for="size">Size:</label>
+    <select id="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+    </select>
+    <br><br>
+    <label for="color">Color:</label>
+    <select id="color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+    </select>
+    <br><br>
+    <button>Apply Filters</button>
+</section>
+<section id="products">
+    <h2>Electronics Gadgets</h2>
+    <div class="product">
+        <h3>Product 1</h3>
+        <p>Description of product 1.</p>
+        <p>$100.00</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h3>Product 2</h3>
+        <p>Description of product 2.</p>
+        <p>$200.00</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h3>Product 3</h3>
+        <p>Description of product 3.</p>
+        <p>$300.00</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+</body>
+</html>
